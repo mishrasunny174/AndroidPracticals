@@ -9,4 +9,7 @@
     <string name="password">password</string>
     <string name="title_activity_list_users">ListUsers</string>
     <string name="users">USERS</string>
+    <string name="title_activity_login">login</string>
+    <string name="delete_user">Remove Account</string>
+    <string name="title_activity_remove_user">RemoveUser</string>
 </resources>

@@ -13,16 +13,12 @@
         android:layout_margin="5dp"
         android:id="@+id/title"/>
 
-    <ScrollView
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/title">
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_margin="5dp"
-            android:id="@+id/list_view_users"/>
-    </ScrollView>
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:id="@+id/list_view_users"
+        android:layout_below="@id/title"/>
 
 </RelativeLayout>

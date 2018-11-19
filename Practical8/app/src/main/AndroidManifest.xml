@@ -26,7 +26,13 @@
             android:label="@string/title_activity_create_account" />
         <activity
             android:name=".ListUsers"
-            android:label="@string/title_activity_list_users"></activity>
+            android:label="@string/title_activity_list_users" />
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".RemoveUser"
+            android:label="@string/title_activity_remove_user"></activity>
     </application>
 
 </manifest>
